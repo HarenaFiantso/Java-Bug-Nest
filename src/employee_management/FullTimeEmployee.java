@@ -20,4 +20,11 @@ public class FullTimeEmployee extends Employee {
     public double calculatePay() {
         return monthlySalary;
     }
+
+    @Override
+    public String toString() {
+        return "Full-Time Employee [Employee ID: " + getEmployeeId() +
+                ", Name: " + getName() +
+                ", Monthly Salary: ********]";
+    }
 }
